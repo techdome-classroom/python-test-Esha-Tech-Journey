@@ -24,6 +24,6 @@ class Solution:
                     islands += 1
                     dfs(i, j)
             
-        return
+        retur
 
         return islands
