@@ -1,4 +1,4 @@
-def decode_messag( s: str, p: str) -> bool:
+def decode_message( s: str, p: str) -> bool:
 
 # write your code here
     if len(s) == 0 and len(p) == 0:
