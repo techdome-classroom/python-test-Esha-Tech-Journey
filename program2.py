@@ -7,7 +7,7 @@ def decode_message( s: str, p: str) -> bool:
     if len(s) == 0 or len(p) == 0:
         return False
 
-    if patt[0] == '*':
+    if pat[0] == '*':
         # Try matching the star symbol with no letters, one letter, or multiple letters
         return match_decoder_key(message, pattern[1:]) or \
                match_decoder_key(message[1:], pattern) or \
