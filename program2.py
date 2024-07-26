@@ -17,6 +17,6 @@ def decode_message( s: str, p: str) -> bool:
         return match_decoder_key(message[1:], pattern[1:])
     else:
         # Check if the current letters match
-        return message[0] == pattern[0] and match_decoder_key(message[1:], pattern[1:])"
+        return message[0] == pattern[0] and match_decoder_key(message[1:], pattern[1:])""
   
         return False
