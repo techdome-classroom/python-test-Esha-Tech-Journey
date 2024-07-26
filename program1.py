@@ -25,5 +25,4 @@ class Solution:
                     dfs(i, j)
             
 
-
         return islands
