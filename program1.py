@@ -4,9 +4,7 @@ class Solution:
     #    write your code here
                     
         return 0
-class Solution:
-   
-    def getTotalIsles(self, grid: list[list[str]]) -> int:
+
         rows = len(grid)
         cols = len(grid[0])
         islands = 0
