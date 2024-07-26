@@ -1,4 +1,4 @@
-def decode_s( s: str, p: str) -> bool:
+def decode_( s: str, p: str) -> bool:
 
 # write your code here
     if len(s) == 0 and len(p) == 0:
