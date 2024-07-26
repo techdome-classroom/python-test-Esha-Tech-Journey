@@ -19,16 +19,6 @@ def decode_message( s: str, p: str) -> bool:
         # Check if the current letters match
         return message[0] == pattern[0] and match_decoder_key(message[1:], pattern[1:])
 
-# Test cases
-print(match_decoder_key("aa", "a"))  # False
-print(match_decoder_key("aa", "*"))  # True
-print(match_decoder_key("cb", "?a"))  # False
-print(match_decoder_key("abc", "*c"))  # True
-print(match_decoder_key("abc", "a*"))  # True
-print(match_decoder_key("abc", "a?c"))  # True
-print(match_decoder_key("abc", "a??"))  # False
-print(match_decoder_key("abc", "a*c*"))  # True
-print(match_decoder_key("abc", "*a*c*"))  # True
-print(match_decoder_key("abc", "*a*c"))  # False
+
   
         return False
