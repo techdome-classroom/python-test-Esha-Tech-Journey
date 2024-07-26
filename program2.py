@@ -2,7 +2,7 @@ def decode_message( s: str, p: str) -> bool:
 
 # write your code here
  def match_decoder_key(message, pattern):
-    if len(mess) == 0 and len(pattern) == 0:
+    if len(mes) == 0 and len(pattern) == 0:
         return True
     if len(message) == 0 or len(pattern) == 0:
         return False
