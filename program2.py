@@ -4,7 +4,7 @@ def decode_message( s: str, p: str) -> bool:
  def match_decoder_key(message, pattern):
     if len(s) == 0 and len(p) == 0:
         return True
-    if len(messag) == 0 or len(pattern) == 0:
+    if len(messa) == 0 or len(pattern) == 0:
         return False
 
     if pattern[0] == '*':
